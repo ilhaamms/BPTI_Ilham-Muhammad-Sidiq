@@ -1,0 +1,60 @@
+.edit-form {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+body {
+    background-color: #eee;
+}
+
+.card-form {
+    border: 3px solid black;
+    background-color: #567189;
+    width: 500px;
+    margin: auto;
+    margin-top: 220px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-university button {
+    margin-left: 250px;
+    background-color: red;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.card-university {
+    border: 3px solid black;
+    display: flex;
+    background-color: #567189;
+    width: 500px;
+    margin: auto;
+    margin-top: 220px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-form .container-form {
+    width: 300px;
+    margin: auto;
+    padding: 60px 0;
+    box-sizing: border-box;
+}

@@ -22,3 +22,19 @@
 ## Result Fizz Buzz
 
 ![This is a alt text.](/public/assets/resultFizzBuzz.png "This is a sample image.")
+
+## Form Login
+
+![This is a alt text.](/public/assets/formLogin.png "This is a sample image.")
+
+## Sign Up
+
+![This is a alt text.](/public/assets/signup.png "This is a sample image.")
+
+## Sukses Login
+
+![This is a alt text.](/public/assets/suksesLogin.png "This is a sample image.")
+
+## Gagal Login
+
+![This is a alt text.](/public/assets/gagalLogin.png "This is a sample image.")

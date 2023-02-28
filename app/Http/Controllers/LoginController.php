@@ -14,8 +14,8 @@ class LoginController extends Controller
         return view('login');
     }
     
-    function signin(){
-        return view('signin');
+    function signup(){
+        return view('signup');
     }
 
     public function university(){

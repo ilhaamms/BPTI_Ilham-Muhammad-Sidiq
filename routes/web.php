@@ -16,7 +16,7 @@ use App\Http\Controllers\LoginController;
 */
 
 Route::get('/', [LoginController::class, 'pageLogin']);
-Route::get('/signin', [LoginController::class, 'signin']);
+Route::get('/signup', [LoginController::class, 'signup']);
 Route::post('/registrasi', [LoginController::class, 'registrasi']);
 Route::post('/login', [LoginController::class, 'login']);
 Route::get('/university', [LoginController::class, 'university']);

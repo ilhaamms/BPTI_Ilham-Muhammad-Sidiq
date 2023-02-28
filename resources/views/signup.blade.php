@@ -7,29 +7,27 @@
         <title>Document</title>
         <link
             rel="stylesheet"
-            href="{{ asset('/css/style.css') }}"
+            href="{{ asset('/css/bootstrap-5.2.3-dist/css/bootstrap.css') }}"
         />
         <link
             rel="stylesheet"
-            href="{{ asset('/css/bootstrap-5.2.3-dist/css/bootstrap.css') }}"
+            href="{{ asset('/css/style.css') }}"
         />
     </head>
 
     <body>
-        <div
-            class="card-form"
-        >
+        <div class="card-form">
             <div class="container-form">
-                <h5 class="text-center">Form Login</h5>
+                <h5 class="text-center">Form Sign Up</h5>
                 <p></p>
                 <form
-                    action="/login"
+                    action="/registrasi"
                     method="POST"
                     name="pengunjung"
                     id="pengunjung"
                 >
                     {{csrf_field()}}
-                    <table >
+                    <table>
                         <tr>
                             <td>User Name</td>
                             <td>:</td>
@@ -42,25 +40,15 @@
                         </tr>
                     </table>
     
-                    <p>
-                        @if ($message = Session::get('success'))
-                        {{$message}}
-                        @endif
-                        
-                        @if ($message = Session::get('error'))
-                        {{$message}}
-                        @endif
-                    </p>
-    
                     <input
                         type="submit"
+                        class="btn btn-success danger mt-4"
                         id="submit"
-                        value="Login"
-                        class="btn btn-success"
+                        value="Daftar"
+                        style="margin-left: 200px"
                     />
                 </form>
                 <br />
-                <p>Belum Daftar? Silahkan <a href="/signup" class="btn btn-info">Sign Up</a></p>
             </div>
         </div>
     </body>
